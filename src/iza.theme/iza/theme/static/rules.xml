@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme
+        href="http://www.iza.org/de/webcontent/index_html"
+        css:if-content="#visual-portal-wrapper" />
+
+    <replace
+        css:content-children="#content"
+        theme-children="//table[@height=480]/tr[5]/td[2]" />
+
+    <replace
+        css:content-children="#portal-footer"
+        css:theme-children=".fuss" />
+
+</rules>
