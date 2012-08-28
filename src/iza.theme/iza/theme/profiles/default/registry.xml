@@ -1,11 +1,14 @@
 <registry>
 
-    <record field="absolutePrefix" interface="plone.app.theming.interfaces.IThemeSettings">
-        <value>http://www.iza.org/de/webcontent/images/</value>
-    </record>
+  <record field="absolutePrefix"
+          interface="plone.app.theming.interfaces.IThemeSettings"
+          name="plone.app.theming.interfaces.IThemeSettings.absolutePrefix">
+    <value>http://www.iza.org/de/webcontent</value>
+  </record>
 
-    <record interface="plone.app.theming.interfaces.IThemeSettings" field="readNetwork">
-        <value>true</value>
-    </record>
+  <record field="readNetwork"
+          interface="plone.app.theming.interfaces.IThemeSettings" >
+    <value>true</value>
+  </record>
 
 </registry>
